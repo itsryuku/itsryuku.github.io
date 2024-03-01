@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <script>
+        function fetchData() {
+            const apiUrl = 'https://api.infobip.com/experience/1/user/';
+
+            fetch(apiUrl, {
+                credentials: 'include'
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById('apiResponse').textContent = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fetchData()">Fetch</button>
+    <div id="apiResponse"></div>
+</body>
+</html>
+

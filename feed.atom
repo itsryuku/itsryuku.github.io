@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ryukudz.com/</id>
+    <title>Malek Mesdour</title>
+    <updated>2024-05-07T06:19:45.522Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Malek Mesdour</name>
+        <email>hunter@ryukudz.com</email>
+        <uri>https://ryukudz.com</uri>
+    </author>
+    <link rel="alternate" href="https://ryukudz.com/"/>
+    <link rel="self" href="https://ryukudz.com/feed.atom"/>
+    <subtitle>Malek Mesdour' Blog</subtitle>
+    <logo>https://ryukudz.com/avatar.png</logo>
+    <icon>https://ryukudz.com/logo.png</icon>
+    <rights>CC BY-NC-SA 4.0 2021 © Malek Mesdour</rights>
+</feed>

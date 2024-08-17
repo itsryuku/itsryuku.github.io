@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PoC</title>
+  </head>
+  <body>
+    <script>
+      !(function (w, d, s, ...args) {
+        var div = d.createElement("div");
+        div.id = "aichatbot";
+        d.body.appendChild(div);
+        w.chatbotConfig = args;
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s);
+        j.defer = true;
+        j.type = "module";
+        j.src = "https://aichatbot.sendbird.com/index.js";
+        f.parentNode.insertBefore(j, f);
+      })(
+        window,
+        document,
+        "script",
+        "5D768F64-C01E-4C3A-A312-DC480C5C4A43",
+        "onboarding_bot",
+        {
+          apiHost: "https://api-cf-us-1.sendbird.com",
+        },
+      );
+    </script>
+  </body>
+</html>

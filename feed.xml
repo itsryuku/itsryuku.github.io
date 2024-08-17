@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Malek Mesdour</title>
+        <link>https://ryukudz.com/</link>
+        <description>Malek Mesdour' Blog</description>
+        <lastBuildDate>Tue, 07 May 2024 06:19:45 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Malek Mesdour</title>
+            <url>https://ryukudz.com/avatar.png</url>
+            <link>https://ryukudz.com/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2021 © Malek Mesdour</copyright>
+        <atom:link href="https://ryukudz.com/feed.xml" rel="self" type="application/rss+xml"/>
+    </channel>
+</rss>

